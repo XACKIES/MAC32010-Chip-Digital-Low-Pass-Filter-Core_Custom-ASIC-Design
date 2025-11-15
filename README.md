@@ -1,4 +1,4 @@
-# MAC32010-Chip-Digital-Low-Pass-Filter-Core-Custom-ASIC-Design-
+# MAC32010 Chip : Digital Low-Pass Filter Core (Custom ASIC Design)
 created by [Kittiphop Phanthachart](https://bento.me/mac-kittiphop) (a 4th-year Engineering student, FPGA/DSP Engineer Intern @Thai Space Consortium, NARIT.)
 
 
