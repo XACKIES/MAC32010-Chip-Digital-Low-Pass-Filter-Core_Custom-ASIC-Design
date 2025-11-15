@@ -1,0 +1,404 @@
+
+Magic 8.3 revision 413 - Compiled on Wed Jul 12 10:04:40 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.493-0-g0fe599b
+Reading LEF data from file /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 82 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 83 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 116 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 118 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 119 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 125 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 126 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 127 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 160 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 171 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 172 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 173 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 213 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 214 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 215 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 255 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 256 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 257 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 294 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 801 lines.
+Reading DEF data from file /openlane/designs/FIR_p/runs/RUN_2025.11.15_04.41.11/tmp/signoff/43-FIR_Lowpass_Filter.p.def.
+This action cannot be undone.
+  Processed 4 vias total.
+Cell sky130_fd_sc_hd__diode_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_3 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_ef_sc_hd__decap_12 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_6 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__fill_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__fill_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_6 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__inv_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlymetal6s2s_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4bb_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4bb_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4bb_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4bb_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkinvlp_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkinv_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_16 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlygate4sd3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlymetal6s4s_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlygate4sd1_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkdlybuf4s18_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+  Processed 99170 subcell instances total.
+  Processed 60 pins total.
+DEF read, Line 99829 (Message): Unknown keyword "ROUTED" in SPECIALNET definition; ignoring.
+DEF read, Line 105028 (Error): Via name "-" unknown in route.
+DEF read, Line 105028 (Error): Via name "VPWR" unknown in route.
+DEF read, Line 105028 (Error): Cannot parse X coordinate.
+DEF read, Line 105028 (Error): Cannot parse Y coordinate.
+DEF read, Line 105028 (Error): Cannot parse Y coordinate.
+DEF read, Line 105029 (Message): Unknown keyword "ROUTED" in SPECIALNET definition; ignoring.
+DEF read, Line 110233 (Error): Via name "END" unknown in route.
+DEF read, Line 110233 (Error): Via name "SPECIALNETS" unknown in route.
+DEF read, Line 110234 (Error): Via name "NETS" unknown in route.
+DEF read, Line 110234 (Error): Via name "27491" unknown in route.
+DEF read, Line 110236 (Error): Bad width in special net
+DEF read, Line 110236 (Error): Route has via name "8925" but no points!
+DEF read, Line 110236 (Error): Route has via name "26010" but no points!
+DEF read, Line 110236 (Error): Route has via name ")" but no points!
+DEF read, Line 110236 (Error): No reference point for "*" wildcard
+DEF read, Line 110237 (Error): Bad width in special net
+DEF read, Line 110237 (Error): Route has via name "16330" but no points!
+DEF read, Line 110237 (Error): Route has via name "24990" but no points!
+DEF read, Line 110237 (Error): Route has via name ")" but no points!
+DEF read, Line 110237 (Error): No reference point for "*" wildcard
+DEF read, Line 110238 (Error): Bad width in special net
+DEF read, Line 110238 (Error): Route has via name "16330" but no points!
+DEF read, Line 110238 (Error): Route has via name "24990" but no points!
+DEF read, Line 110238 (Error): Route has via name ")" but no points!
+DEF read, Line 110238 (Error): No reference point for "*" wildcard
+DEF read, Line 110239 (Error): Bad width in special net
+DEF read, Line 110239 (Error): Route has via name "49450" but no points!
+DEF read, Line 110239 (Error): Route has via name "202130" but no points!
+DEF read, Line 110239 (Error): Route has via name ")" but no points!
+DEF read, Line 110239 (Error): No reference point for "*" wildcard
+DEF read, Line 110240 (Error): Bad width in special net
+DEF read, Line 110240 (Error): Route has via name "49450" but no points!
+DEF read, Line 110240 (Error): Route has via name "24990" but no points!
+DEF read, Line 110240 (Error): Route has via name ")" but no points!
+DEF read, Line 110240 (Error): No reference point for "*" wildcard
+DEF read, Line 110241 (Error): Bad width in special net
+DEF read, Line 110241 (Error): Route has via name "16330" but no points!
+DEF read, Line 110241 (Error): Route has via name "24990" but no points!
+DEF read, Line 110241 (Error): Route has via name ")" but no points!
+DEF read, Line 110241 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110242 (Error): Bad width in special net
+DEF read, Line 110242 (Error): Route has via name "8925" but no points!
+DEF read, Line 110242 (Error): Route has via name "26010" but no points!
+DEF read, Line 110242 (Error): Route has via name ")" but no points!
+DEF read, Line 110242 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110243 (Error): Bad width in special net
+DEF read, Line 110243 (Error): Route has via name "49450" but no points!
+DEF read, Line 110243 (Error): Route has via name "24990" but no points!
+DEF read, Line 110243 (Error): Route has via name ")" but no points!
+DEF read, Line 110243 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110244 (Error): Bad width in special net
+DEF read, Line 110244 (Error): Route has via name "49450" but no points!
+DEF read, Line 110244 (Error): Route has via name "202130" but no points!
+DEF read, Line 110244 (Error): Route has via name ")" but no points!
+DEF read, Line 110244 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110246 (Error): Bad width in special net
+DEF read, Line 110246 (Error): Route has via name "39285" but no points!
+DEF read, Line 110246 (Error): Route has via name "194650" but no points!
+DEF read, Line 110246 (Error): Route has via name ")" but no points!
+DEF read, Line 110246 (Error): No reference point for "*" wildcard
+DEF read, Line 110247 (Error): Bad width in special net
+DEF read, Line 110247 (Error): Route has via name "43930" but no points!
+DEF read, Line 110247 (Error): Route has via name "194650" but no points!
+DEF read, Line 110247 (Error): Route has via name ")" but no points!
+DEF read, Line 110247 (Error): No reference point for "*" wildcard
+DEF read, Line 110248 (Error): Bad width in special net
+DEF read, Line 110248 (Error): Route has via name "39285" but no points!
+DEF read, Line 110248 (Error): Route has via name "194650" but no points!
+DEF read, Line 110248 (Error): Route has via name ")" but no points!
+DEF read, Line 110248 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110249 (Error): Bad width in special net
+DEF read, Line 110249 (Error): Route has via name "43930" but no points!
+DEF read, Line 110249 (Error): Route has via name "194650" but no points!
+DEF read, Line 110249 (Error): Route has via name ")" but no points!
+DEF read, Line 110249 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110250 (Error): Bad width in special net
+DEF read, Line 110250 (Error): Route has via name "43930" but no points!
+DEF read, Line 110250 (Error): Route has via name "202810" but no points!
+DEF read, Line 110250 (Error): Route has via name ")" but no points!
+DEF read, Line 110250 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110251 (Error): Bad width in special net
+DEF read, Line 110251 (Error): Route has via name "43930" but no points!
+DEF read, Line 110251 (Error): Route has via name "202810" but no points!
+DEF read, Line 110251 (Error): Route has via name ")" but no points!
+DEF read, Line 110251 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110253 (Error): Bad width in special net
+DEF read, Line 110253 (Error): Route has via name "48485" but no points!
+DEF read, Line 110253 (Error): Route has via name "69530" but no points!
+DEF read, Line 110253 (Error): Route has via name ")" but no points!
+DEF read, Line 110253 (Error): No reference point for "*" wildcard
+DEF read, Line 110254 (Error): Bad width in special net
+DEF read, Line 110254 (Error): Route has via name "56350" but no points!
+DEF read, Line 110254 (Error): Route has via name "69530" but no points!
+DEF read, Line 110254 (Error): Route has via name ")" but no points!
+DEF read, Line 110254 (Error): No reference point for "*" wildcard
+DEF read, Line 110255 (Error): Bad width in special net
+DEF read, Line 110255 (Error): Route has via name "56350" but no points!
+DEF read, Line 110255 (Error): Route has via name "69870" but no points!
+DEF read, Line 110255 (Error): Route has via name ")" but no points!
+DEF read, Line 110255 (Error): No reference point for "*" wildcard
+DEF read, Line 110256 (Error): Bad width in special net
+DEF Read:  Further errors will not be reported.
+DEF read, Line 562200 (Warning): Number of nets read (27492) does not match the number declared (2).
+DEF read: Processed 562200 lines.
+DEF Read: encountered 2121417 errors total.
+DEF Read: encountered 1 warning total.
+[INFO]: Writing abstract LEF
+Generating LEF output /openlane/designs/FIR_p/runs/RUN_2025.11.15_04.41.11/results/signoff/FIR_Lowpass_Filter.lef for cell FIR_Lowpass_Filter:
+Diagnostic:  Write LEF header for cell FIR_Lowpass_Filter
+Diagnostic:  Writing LEF output for cell FIR_Lowpass_Filter
+Diagnostic:  Scale value is 0.005000
+[INFO]: LEF Write Complete

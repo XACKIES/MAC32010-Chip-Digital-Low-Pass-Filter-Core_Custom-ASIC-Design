@@ -1,0 +1,649 @@
+
+Magic 8.3 revision 413 - Compiled on Wed Jul 12 10:04:40 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.493-0-g0fe599b
+Reading LEF data from file /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 82 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 83 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 116 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 118 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 119 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 125 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 126 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 127 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 160 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 171 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 172 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 173 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 213 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 214 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 215 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 255 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 256 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 257 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 294 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 801 lines.
+Reading DEF data from file /openlane/designs/FIR_p/runs/RUN_2025.11.15_04.41.11/results/routing/FIR_Lowpass_Filter.def.
+This action cannot be undone.
+  Processed 4 vias total.
+Cell sky130_fd_sc_hd__diode_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_3 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_ef_sc_hd__decap_12 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_6 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__fill_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__fill_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__decap_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_6 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__inv_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlymetal6s2s_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xnor2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21boi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o211a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4bb_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21bai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__xor2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand3b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4bb_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2111a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a22o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a31oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4bb_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or2_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3b_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or3b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor2b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__mux2_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor3b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand4bb_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o22a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41oi_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a21bo_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a41oi_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41a_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o2bb2a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o221ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a311oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32a_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkinvlp_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__or4b_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4bb_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4b_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a211o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32oi_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__and4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o32ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o31ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a32o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2111o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a2bb2o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o311ai_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nand2_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o21ba_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__a221o_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkinv_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41a_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__nor4_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__o41ai_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dfxtp_4 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_16 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkbuf_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlygate4sd3_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlymetal6s4s_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__dlygate4sd1_1 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__clkdlybuf4s18_2 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Cell sky130_fd_sc_hd__buf_8 read from path /home/kitti/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+  Processed 99170 subcell instances total.
+  Processed 60 pins total.
+DEF read, Line 99829 (Message): Unknown keyword "ROUTED" in SPECIALNET definition; ignoring.
+DEF read, Line 104992 (Error): Via name "-" unknown in route.
+DEF read, Line 104992 (Error): Via name "VPWR" unknown in route.
+DEF read, Line 104992 (Error): Cannot parse X coordinate.
+DEF read, Line 104992 (Error): Cannot parse Y coordinate.
+DEF read, Line 104992 (Error): Cannot parse Y coordinate.
+DEF read, Line 104993 (Message): Unknown keyword "ROUTED" in SPECIALNET definition; ignoring.
+DEF read, Line 110161 (Error): Via name "END" unknown in route.
+DEF read, Line 110161 (Error): Via name "SPECIALNETS" unknown in route.
+DEF read, Line 110162 (Error): Via name "NETS" unknown in route.
+DEF read, Line 110162 (Error): Via name "27491" unknown in route.
+DEF read, Line 110164 (Error): Bad width in special net
+DEF read, Line 110164 (Error): Route has via name "8925" but no points!
+DEF read, Line 110164 (Error): Route has via name "26010" but no points!
+DEF read, Line 110164 (Error): Route has via name ")" but no points!
+DEF read, Line 110164 (Error): No reference point for "*" wildcard
+DEF read, Line 110165 (Error): Bad width in special net
+DEF read, Line 110165 (Error): Route has via name "16330" but no points!
+DEF read, Line 110165 (Error): Route has via name "24990" but no points!
+DEF read, Line 110165 (Error): Route has via name ")" but no points!
+DEF read, Line 110165 (Error): No reference point for "*" wildcard
+DEF read, Line 110166 (Error): Bad width in special net
+DEF read, Line 110166 (Error): Route has via name "16330" but no points!
+DEF read, Line 110166 (Error): Route has via name "24990" but no points!
+DEF read, Line 110166 (Error): Route has via name ")" but no points!
+DEF read, Line 110166 (Error): No reference point for "*" wildcard
+DEF read, Line 110167 (Error): Bad width in special net
+DEF read, Line 110167 (Error): Route has via name "49450" but no points!
+DEF read, Line 110167 (Error): Route has via name "202130" but no points!
+DEF read, Line 110167 (Error): Route has via name ")" but no points!
+DEF read, Line 110167 (Error): No reference point for "*" wildcard
+DEF read, Line 110168 (Error): Bad width in special net
+DEF read, Line 110168 (Error): Route has via name "49450" but no points!
+DEF read, Line 110168 (Error): Route has via name "24990" but no points!
+DEF read, Line 110168 (Error): Route has via name ")" but no points!
+DEF read, Line 110168 (Error): No reference point for "*" wildcard
+DEF read, Line 110169 (Error): Bad width in special net
+DEF read, Line 110169 (Error): Route has via name "16330" but no points!
+DEF read, Line 110169 (Error): Route has via name "24990" but no points!
+DEF read, Line 110169 (Error): Route has via name ")" but no points!
+DEF read, Line 110169 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110170 (Error): Bad width in special net
+DEF read, Line 110170 (Error): Route has via name "8925" but no points!
+DEF read, Line 110170 (Error): Route has via name "26010" but no points!
+DEF read, Line 110170 (Error): Route has via name ")" but no points!
+DEF read, Line 110170 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110171 (Error): Bad width in special net
+DEF read, Line 110171 (Error): Route has via name "49450" but no points!
+DEF read, Line 110171 (Error): Route has via name "24990" but no points!
+DEF read, Line 110171 (Error): Route has via name ")" but no points!
+DEF read, Line 110171 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110172 (Error): Bad width in special net
+DEF read, Line 110172 (Error): Route has via name "49450" but no points!
+DEF read, Line 110172 (Error): Route has via name "202130" but no points!
+DEF read, Line 110172 (Error): Route has via name ")" but no points!
+DEF read, Line 110172 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110174 (Error): Bad width in special net
+DEF read, Line 110174 (Error): Route has via name "39285" but no points!
+DEF read, Line 110174 (Error): Route has via name "194650" but no points!
+DEF read, Line 110174 (Error): Route has via name ")" but no points!
+DEF read, Line 110174 (Error): No reference point for "*" wildcard
+DEF read, Line 110175 (Error): Bad width in special net
+DEF read, Line 110175 (Error): Route has via name "43930" but no points!
+DEF read, Line 110175 (Error): Route has via name "194650" but no points!
+DEF read, Line 110175 (Error): Route has via name ")" but no points!
+DEF read, Line 110175 (Error): No reference point for "*" wildcard
+DEF read, Line 110176 (Error): Bad width in special net
+DEF read, Line 110176 (Error): Route has via name "39285" but no points!
+DEF read, Line 110176 (Error): Route has via name "194650" but no points!
+DEF read, Line 110176 (Error): Route has via name ")" but no points!
+DEF read, Line 110176 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110177 (Error): Bad width in special net
+DEF read, Line 110177 (Error): Route has via name "43930" but no points!
+DEF read, Line 110177 (Error): Route has via name "194650" but no points!
+DEF read, Line 110177 (Error): Route has via name ")" but no points!
+DEF read, Line 110177 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110178 (Error): Bad width in special net
+DEF read, Line 110178 (Error): Route has via name "43930" but no points!
+DEF read, Line 110178 (Error): Route has via name "202810" but no points!
+DEF read, Line 110178 (Error): Route has via name ")" but no points!
+DEF read, Line 110178 (Error): Route has via name "L1M1_PR" but no points!
+DEF read, Line 110179 (Error): Bad width in special net
+DEF read, Line 110179 (Error): Route has via name "43930" but no points!
+DEF read, Line 110179 (Error): Route has via name "202810" but no points!
+DEF read, Line 110179 (Error): Route has via name ")" but no points!
+DEF read, Line 110179 (Error): Route has via name "M1M2_PR" but no points!
+DEF read, Line 110181 (Error): Bad width in special net
+DEF read, Line 110181 (Error): Route has via name "48485" but no points!
+DEF read, Line 110181 (Error): Route has via name "69530" but no points!
+DEF read, Line 110181 (Error): Route has via name ")" but no points!
+DEF read, Line 110181 (Error): No reference point for "*" wildcard
+DEF read, Line 110182 (Error): Bad width in special net
+DEF read, Line 110182 (Error): Route has via name "56350" but no points!
+DEF read, Line 110182 (Error): Route has via name "69530" but no points!
+DEF read, Line 110182 (Error): Route has via name ")" but no points!
+DEF read, Line 110182 (Error): No reference point for "*" wildcard
+DEF read, Line 110183 (Error): Bad width in special net
+DEF read, Line 110183 (Error): Route has via name "56350" but no points!
+DEF read, Line 110183 (Error): Route has via name "69870" but no points!
+DEF read, Line 110183 (Error): Route has via name ")" but no points!
+DEF read, Line 110183 (Error): No reference point for "*" wildcard
+DEF read, Line 110184 (Error): Bad width in special net
+DEF Read:  Further errors will not be reported.
+DEF read, Line 562128 (Warning): Number of nets read (27492) does not match the number declared (2).
+DEF read: Processed 562128 lines.
+DEF Read: encountered 2121417 errors total.
+DEF Read: encountered 1 warning total.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  905.110 x 915.830  ( 0.000,  0.000), ( 905.110,  915.830)  828926.875
+lambda:   90511.00 x 91583.00  (  0.00,  0.00 ), ( 90511.00,  91583.00)  8289268736.00
+internal: 181022 x 183166  (     0,  0    ), ( 181022,  183166)  33157075652
+   Generating output for cell sky130_ef_sc_hd__decap_12
+   Generating output for cell sky130_fd_sc_hd__decap_3
+   Generating output for cell sky130_fd_sc_hd__fill_1
+   Generating output for cell sky130_fd_sc_hd__tapvpwrvgnd_1
+   Generating output for cell sky130_fd_sc_hd__decap_4
+   Generating output for cell sky130_fd_sc_hd__decap_6
+   Generating output for cell sky130_fd_sc_hd__decap_8
+   Generating output for cell sky130_fd_sc_hd__and3_1
+   Generating output for cell sky130_fd_sc_hd__o211a_1
+   Generating output for cell sky130_fd_sc_hd__dlymetal6s2s_1
+   Generating output for cell sky130_fd_sc_hd__nand4_1
+   Generating output for cell sky130_fd_sc_hd__a22o_1
+   Generating output for cell sky130_fd_sc_hd__a21oi_2
+   Generating output for cell sky130_fd_sc_hd__o2bb2ai_2
+   Generating output for cell sky130_fd_sc_hd__a21oi_1
+   Generating output for cell sky130_fd_sc_hd__nor2_1
+   Generating output for cell sky130_fd_sc_hd__nand4_2
+   Generating output for cell sky130_fd_sc_hd__fill_2
+   Generating output for cell sky130_fd_sc_hd__nand3_2
+   Generating output for cell sky130_fd_sc_hd__and3_2
+   Generating output for cell sky130_fd_sc_hd__o211ai_4
+   Generating output for cell sky130_fd_sc_hd__or2_1
+   Generating output for cell sky130_fd_sc_hd__a211o_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_2
+   Generating output for cell sky130_fd_sc_hd__xor2_1
+   Generating output for cell sky130_fd_sc_hd__and2_1
+   Generating output for cell sky130_fd_sc_hd__or3b_1
+   Generating output for cell sky130_fd_sc_hd__a21o_1
+   Generating output for cell sky130_fd_sc_hd__a21boi_1
+   Generating output for cell sky130_fd_sc_hd__nand2_1
+   Generating output for cell sky130_fd_sc_hd__o21ai_1
+   Generating output for cell sky130_fd_sc_hd__a22o_2
+   Generating output for cell sky130_fd_sc_hd__a21bo_1
+   Generating output for cell sky130_fd_sc_hd__nand3_1
+   Generating output for cell sky130_fd_sc_hd__a31o_1
+   Generating output for cell sky130_fd_sc_hd__a21boi_2
+   Generating output for cell sky130_fd_sc_hd__o21bai_4
+   Generating output for cell sky130_fd_sc_hd__o221ai_4
+   Generating output for cell sky130_fd_sc_hd__o21bai_2
+   Generating output for cell sky130_fd_sc_hd__and2_2
+   Generating output for cell sky130_fd_sc_hd__nand3b_2
+   Generating output for cell sky130_fd_sc_hd__a2bb2o_2
+   Generating output for cell sky130_fd_sc_hd__a211oi_2
+   Generating output for cell sky130_fd_sc_hd__o21ai_2
+   Generating output for cell sky130_fd_sc_hd__buf_1
+   Generating output for cell sky130_fd_sc_hd__a41o_1
+   Generating output for cell sky130_fd_sc_hd__o2bb2ai_4
+   Generating output for cell sky130_fd_sc_hd__buf_2
+   Generating output for cell sky130_fd_sc_hd__nand2_2
+   Generating output for cell sky130_fd_sc_hd__o21ai_4
+   Generating output for cell sky130_fd_sc_hd__inv_2
+   Generating output for cell sky130_fd_sc_hd__or3b_2
+   Generating output for cell sky130_fd_sc_hd__o21a_1
+   Generating output for cell sky130_fd_sc_hd__nor2_2
+   Generating output for cell sky130_fd_sc_hd__o221ai_2
+   Generating output for cell sky130_fd_sc_hd__clkbuf_4
+   Generating output for cell sky130_fd_sc_hd__o2bb2ai_1
+   Generating output for cell sky130_fd_sc_hd__o211ai_2
+   Generating output for cell sky130_fd_sc_hd__diode_2
+   Generating output for cell sky130_fd_sc_hd__dfxtp_1
+   Generating output for cell sky130_fd_sc_hd__nand3b_1
+   Generating output for cell sky130_fd_sc_hd__a22oi_2
+   Generating output for cell sky130_fd_sc_hd__o22a_1
+   Generating output for cell sky130_fd_sc_hd__o211ai_1
+   Generating output for cell sky130_fd_sc_hd__o21bai_1
+   Generating output for cell sky130_fd_sc_hd__or2b_1
+   Generating output for cell sky130_fd_sc_hd__nand3b_4
+   Generating output for cell sky130_fd_sc_hd__xnor2_2
+   Generating output for cell sky130_fd_sc_hd__o2bb2a_1
+   Generating output for cell sky130_fd_sc_hd__nor3_1
+   Generating output for cell sky130_fd_sc_hd__o2111ai_4
+   Generating output for cell sky130_fd_sc_hd__o221a_1
+   Generating output for cell sky130_fd_sc_hd__or3_1
+   Generating output for cell sky130_fd_sc_hd__or3_2
+   Generating output for cell sky130_fd_sc_hd__o31a_1
+   Generating output for cell sky130_fd_sc_hd__or4_1
+   Generating output for cell sky130_fd_sc_hd__or4b_1
+   Generating output for cell sky130_fd_sc_hd__a211oi_1
+   Generating output for cell sky130_fd_sc_hd__o32a_1
+   Generating output for cell sky130_fd_sc_hd__o2111a_1
+   Generating output for cell sky130_fd_sc_hd__a311o_1
+   Generating output for cell sky130_fd_sc_hd__and2b_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_2
+   Generating output for cell sky130_fd_sc_hd__o21ba_1
+   Generating output for cell sky130_fd_sc_hd__nor4_1
+   Generating output for cell sky130_fd_sc_hd__xnor2_1
+   Generating output for cell sky130_fd_sc_hd__o2111ai_1
+   Generating output for cell sky130_fd_sc_hd__nand3_4
+   Generating output for cell sky130_fd_sc_hd__a21o_2
+   Generating output for cell sky130_fd_sc_hd__a2bb2o_1
+   Generating output for cell sky130_fd_sc_hd__xor2_2
+   Generating output for cell sky130_fd_sc_hd__a221o_1
+   Generating output for cell sky130_fd_sc_hd__nor3_2
+   Generating output for cell sky130_fd_sc_hd__a221oi_1
+   Generating output for cell sky130_fd_sc_hd__and4_1
+   Generating output for cell sky130_fd_sc_hd__nor3b_2
+   Generating output for cell sky130_fd_sc_hd__a22oi_4
+   Generating output for cell sky130_fd_sc_hd__a2111o_2
+   Generating output for cell sky130_fd_sc_hd__or2_2
+   Generating output for cell sky130_fd_sc_hd__o41a_1
+   Generating output for cell sky130_fd_sc_hd__xor2_4
+   Generating output for cell sky130_fd_sc_hd__o311a_1
+   Generating output for cell sky130_fd_sc_hd__and4_2
+   Generating output for cell sky130_fd_sc_hd__a211o_2
+   Generating output for cell sky130_fd_sc_hd__a21oi_4
+   Generating output for cell sky130_fd_sc_hd__or4_2
+   Generating output for cell sky130_fd_sc_hd__o21ba_2
+   Generating output for cell sky130_fd_sc_hd__o22a_2
+   Generating output for cell sky130_fd_sc_hd__a31oi_2
+   Generating output for cell sky130_fd_sc_hd__o22ai_1
+   Generating output for cell sky130_fd_sc_hd__dlygate4sd3_1
+   Generating output for cell sky130_fd_sc_hd__or3b_4
+   Generating output for cell sky130_fd_sc_hd__buf_4
+   Generating output for cell sky130_fd_sc_hd__o2111a_4
+   Generating output for cell sky130_fd_sc_hd__and4b_1
+   Generating output for cell sky130_fd_sc_hd__o211a_2
+   Generating output for cell sky130_fd_sc_hd__o211a_4
+   Generating output for cell sky130_fd_sc_hd__o22ai_4
+   Generating output for cell sky130_fd_sc_hd__a221oi_4
+   Generating output for cell sky130_fd_sc_hd__a31oi_4
+   Generating output for cell sky130_fd_sc_hd__and3b_1
+   Generating output for cell sky130_fd_sc_hd__mux2_1
+   Generating output for cell sky130_fd_sc_hd__a2111o_1
+   Generating output for cell sky130_fd_sc_hd__or4bb_1
+   Generating output for cell sky130_fd_sc_hd__and3_4
+   Generating output for cell sky130_fd_sc_hd__or4bb_2
+   Generating output for cell sky130_fd_sc_hd__clkbuf_16
+   Generating output for cell sky130_fd_sc_hd__nand4_4
+   Generating output for cell sky130_fd_sc_hd__a311o_2
+   Generating output for cell sky130_fd_sc_hd__a2111oi_1
+   Generating output for cell sky130_fd_sc_hd__a221oi_2
+   Generating output for cell sky130_fd_sc_hd__a41oi_4
+   Generating output for cell sky130_fd_sc_hd__or2b_2
+   Generating output for cell sky130_fd_sc_hd__clkbuf_1
+   Generating output for cell sky130_fd_sc_hd__a2bb2oi_2
+   Generating output for cell sky130_fd_sc_hd__o311a_2
+   Generating output for cell sky130_fd_sc_hd__nor3_4
+   Generating output for cell sky130_fd_sc_hd__a32o_1
+   Generating output for cell sky130_fd_sc_hd__o311ai_4
+   Generating output for cell sky130_fd_sc_hd__o22ai_2
+   Generating output for cell sky130_fd_sc_hd__and2b_2
+   Generating output for cell sky130_fd_sc_hd__or2_4
+   Generating output for cell sky130_fd_sc_hd__nand2_4
+   Generating output for cell sky130_fd_sc_hd__o21a_4
+   Generating output for cell sky130_fd_sc_hd__nand4b_4
+   Generating output for cell sky130_fd_sc_hd__nor3b_1
+   Generating output for cell sky130_fd_sc_hd__or4bb_4
+   Generating output for cell sky130_fd_sc_hd__o31a_2
+   Generating output for cell sky130_fd_sc_hd__nor4_2
+   Generating output for cell sky130_fd_sc_hd__a31oi_1
+   Generating output for cell sky130_fd_sc_hd__and4bb_1
+   Generating output for cell sky130_fd_sc_hd__nand2b_4
+   Generating output for cell sky130_fd_sc_hd__o2111ai_2
+   Generating output for cell sky130_fd_sc_hd__a41oi_2
+   Generating output for cell sky130_fd_sc_hd__or3_4
+   Generating output for cell sky130_fd_sc_hd__a211oi_4
+   Generating output for cell sky130_fd_sc_hd__o21a_2
+   Generating output for cell sky130_fd_sc_hd__a2111oi_2
+   Generating output for cell sky130_fd_sc_hd__or4_4
+   Generating output for cell sky130_fd_sc_hd__o41ai_2
+   Generating output for cell sky130_fd_sc_hd__xnor2_4
+   Generating output for cell sky130_fd_sc_hd__dfxtp_4
+   Generating output for cell sky130_fd_sc_hd__o31ai_1
+   Generating output for cell sky130_fd_sc_hd__o32a_2
+   Generating output for cell sky130_fd_sc_hd__a21bo_2
+   Generating output for cell sky130_fd_sc_hd__o32ai_4
+   Generating output for cell sky130_fd_sc_hd__a21o_4
+   Generating output for cell sky130_fd_sc_hd__a22oi_1
+   Generating output for cell sky130_fd_sc_hd__and3b_2
+   Generating output for cell sky130_fd_sc_hd__nand4b_2
+   Generating output for cell sky130_fd_sc_hd__or2b_4
+   Generating output for cell sky130_fd_sc_hd__a21boi_4
+   Generating output for cell sky130_fd_sc_hd__a2bb2o_4
+   Generating output for cell sky130_fd_sc_hd__nand2_8
+   Generating output for cell sky130_fd_sc_hd__and4b_2
+   Generating output for cell sky130_fd_sc_hd__o221a_2
+   Generating output for cell sky130_fd_sc_hd__nand2b_2
+   Generating output for cell sky130_fd_sc_hd__a211o_4
+   Generating output for cell sky130_fd_sc_hd__nor3b_4
+   Generating output for cell sky130_fd_sc_hd__a32oi_4
+   Generating output for cell sky130_fd_sc_hd__nor2_4
+   Generating output for cell sky130_fd_sc_hd__a311oi_2
+   Generating output for cell sky130_fd_sc_hd__and2b_4
+   Generating output for cell sky130_fd_sc_hd__a2bb2oi_1
+   Generating output for cell sky130_fd_sc_hd__o32ai_2
+   Generating output for cell sky130_fd_sc_hd__o21ba_4
+   Generating output for cell sky130_fd_sc_hd__a221o_4
+   Generating output for cell sky130_fd_sc_hd__or4b_2
+   Generating output for cell sky130_fd_sc_hd__a311oi_4
+   Generating output for cell sky130_fd_sc_hd__o41ai_4
+   Generating output for cell sky130_fd_sc_hd__and4bb_2
+   Generating output for cell sky130_fd_sc_hd__o31ai_2
+   Generating output for cell sky130_fd_sc_hd__a2bb2oi_4
+   Generating output for cell sky130_fd_sc_hd__a31o_2
+   Generating output for cell sky130_fd_sc_hd__a32o_2
+   Generating output for cell sky130_fd_sc_hd__nand2b_1
+   Generating output for cell sky130_fd_sc_hd__or4b_4
+   Generating output for cell sky130_fd_sc_hd__o2bb2a_2
+   Generating output for cell sky130_fd_sc_hd__a21bo_4
+   Generating output for cell sky130_fd_sc_hd__nor2b_2
+   Generating output for cell sky130_fd_sc_hd__dlygate4sd1_1
+   Generating output for cell sky130_fd_sc_hd__nor2b_1
+   Generating output for cell sky130_fd_sc_hd__o41a_2
+   Generating output for cell sky130_fd_sc_hd__and2_4
+   Generating output for cell sky130_fd_sc_hd__o221ai_1
+   Generating output for cell sky130_fd_sc_hd__a221o_2
+   Generating output for cell sky130_fd_sc_hd__nor4b_1
+   Generating output for cell sky130_fd_sc_hd__a32oi_2
+   Generating output for cell sky130_fd_sc_hd__buf_6
+   Generating output for cell sky130_fd_sc_hd__o31ai_4
+   Generating output for cell sky130_fd_sc_hd__clkinv_4
+   Generating output for cell sky130_fd_sc_hd__a311oi_1
+   Generating output for cell sky130_fd_sc_hd__and4bb_4
+   Generating output for cell sky130_fd_sc_hd__a41o_4
+   Generating output for cell sky130_fd_sc_hd__o2111a_2
+   Generating output for cell sky130_fd_sc_hd__mux2_2
+   Generating output for cell sky130_fd_sc_hd__buf_8
+   Generating output for cell sky130_fd_sc_hd__a31o_4
+   Generating output for cell sky130_fd_sc_hd__nor2b_4
+   Generating output for cell sky130_fd_sc_hd__a41o_2
+   Generating output for cell sky130_fd_sc_hd__dlymetal6s4s_1
+   Generating output for cell sky130_fd_sc_hd__nor2_8
+   Generating output for cell sky130_fd_sc_hd__nand4b_1
+   Generating output for cell sky130_fd_sc_hd__o41ai_1
+   Generating output for cell sky130_fd_sc_hd__o221a_4
+   Generating output for cell sky130_fd_sc_hd__o22a_4
+   Generating output for cell sky130_fd_sc_hd__clkbuf_8
+   Generating output for cell sky130_fd_sc_hd__a2111oi_4
+   Generating output for cell sky130_fd_sc_hd__a22o_4
+   Generating output for cell sky130_fd_sc_hd__o31a_4
+   Generating output for cell sky130_fd_sc_hd__o311a_4
+   Generating output for cell sky130_fd_sc_hd__nand4bb_1
+   Generating output for cell sky130_fd_sc_hd__o2bb2a_4
+   Generating output for cell sky130_fd_sc_hd__and4_4
+   Generating output for cell sky130_fd_sc_hd__o32ai_1
+   Generating output for cell sky130_fd_sc_hd__clkinvlp_2
+   Generating output for cell sky130_fd_sc_hd__and4b_4
+   Generating output for cell sky130_fd_sc_hd__o32a_4
+   Generating output for cell sky130_fd_sc_hd__nor4_4
+   Generating output for cell sky130_fd_sc_hd__a32oi_1
+   Generating output for cell sky130_fd_sc_hd__clkdlybuf4s18_2
+   Generating output for cell sky130_fd_sc_hd__a32o_4
+   Generating output for cell sky130_fd_sc_hd__a2111o_4
+   Generating output for cell FIR_Lowpass_Filter
+[INFO]: GDS Write Complete

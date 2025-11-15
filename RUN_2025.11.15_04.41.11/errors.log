@@ -1,0 +1,19 @@
+[ERROR]: run_sta missing required -log
+[ERROR]: run_sta missing required -log
+[ERROR]: during executing magic script /openlane/scripts/magic/wrapper.tcl
+[ERROR]: Log: designs/FIR_p/runs/RUN_2025.11.15_04.41.11/logs/signoff/32-drc.log
+[ERROR]: Last 10 lines:
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.493-0-g0fe599b
+Error: can't read "::env(CURRENT_GDS)": no such variable
+child process exited abnormally
+
+[ERROR]: Creating issue reproducible...
+[ERROR]: run_sta missing required -log
+[ERROR]: run_sta missing required -log

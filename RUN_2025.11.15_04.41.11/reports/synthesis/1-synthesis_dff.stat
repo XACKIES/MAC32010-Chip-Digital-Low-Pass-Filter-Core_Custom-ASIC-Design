@@ -1,0 +1,25 @@
+
+53. Printing statistics.
+
+=== FIR_Lowpass_Filter ===
+
+   Number of wires:              23086
+   Number of wire bits:          23956
+   Number of public wires:          44
+   Number of public wire bits:     714
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              23775
+     $_ANDNOT_                    7264
+     $_AND_                        564
+     $_MUX_                         71
+     $_NAND_                       167
+     $_NOR_                       1575
+     $_NOT_                        918
+     $_ORNOT_                     1064
+     $_OR_                        2695
+     $_XNOR_                      2662
+     $_XOR_                       6098
+     sky130_fd_sc_hd__dfxtp_2      697
+

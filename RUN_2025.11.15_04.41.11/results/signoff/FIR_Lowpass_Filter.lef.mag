@@ -1,0 +1,284 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1763186520
+<< obsli1 >>
+rect 1104 2159 179860 180625
+<< obsm1 >>
+rect 1104 2128 179860 180656
+<< metal2 >>
+rect 90454 0 90510 800
+<< obsm2 >>
+rect 111720 14469 136312 14532
+<< metal3 >>
+rect 0 178440 800 178560
+rect 180222 177080 181022 177200
+rect 0 174088 800 174208
+rect 0 169736 800 169856
+rect 180222 165656 181022 165776
+rect 0 165384 800 165504
+rect 0 161032 800 161152
+rect 0 156680 800 156800
+rect 180222 154232 181022 154352
+rect 0 152328 800 152448
+rect 0 147976 800 148096
+rect 0 143624 800 143744
+rect 180222 142808 181022 142928
+rect 0 139272 800 139392
+rect 0 134920 800 135040
+rect 180222 131384 181022 131504
+rect 0 130568 800 130688
+rect 0 126216 800 126336
+rect 0 121864 800 121984
+rect 180222 119960 181022 120080
+rect 0 117512 800 117632
+rect 0 113160 800 113280
+rect 0 108808 800 108928
+rect 180222 108536 181022 108656
+rect 0 104456 800 104576
+rect 0 100104 800 100224
+rect 180222 97112 181022 97232
+rect 0 95752 800 95872
+rect 0 91400 800 91520
+rect 0 87048 800 87168
+rect 180222 85688 181022 85808
+rect 0 82696 800 82816
+rect 0 78344 800 78464
+rect 180222 74264 181022 74384
+rect 0 73992 800 74112
+rect 0 69640 800 69760
+rect 0 65288 800 65408
+rect 180222 62840 181022 62960
+rect 0 60936 800 61056
+rect 0 56584 800 56704
+rect 0 52232 800 52352
+rect 180222 51416 181022 51536
+rect 0 47880 800 48000
+rect 0 43528 800 43648
+rect 180222 39992 181022 40112
+rect 0 39176 800 39296
+rect 0 34824 800 34944
+rect 0 30472 800 30592
+rect 180222 28568 181022 28688
+rect 0 26120 800 26240
+rect 0 21768 800 21888
+rect 0 17416 800 17536
+rect 180222 17144 181022 17264
+rect 0 13064 800 13184
+rect 0 8712 800 8832
+rect 180222 5720 181022 5840
+rect 0 4360 800 4480
+<< obsm3 >>
+rect 2728 14439 179616 14499
+<< metal4 >>
+rect 4208 2128 4528 180656
+rect 4868 2128 5188 180656
+rect 34928 2128 35248 180656
+rect 35588 2128 35908 180656
+rect 65648 2128 65968 180656
+rect 66308 2128 66628 180656
+rect 96368 2128 96688 180656
+rect 97028 2128 97348 180656
+rect 127088 2128 127408 180656
+rect 127748 2128 128068 180656
+rect 157808 2128 158128 180656
+rect 158468 2128 158788 180656
+<< obsm4 >>
+rect 7376 14345 34848 14469
+rect 35328 14345 35508 14469
+rect 35988 14345 65568 14469
+rect 66048 14345 66228 14469
+rect 66708 14345 96288 14469
+rect 96768 14345 96948 14469
+rect 97428 14345 127008 14469
+rect 127488 14345 127668 14469
+rect 128148 14345 157728 14469
+rect 158208 14345 158388 14469
+rect 158868 14345 162916 14469
+<< metal5 >>
+rect 1056 159186 179908 159506
+rect 1056 158526 179908 158846
+rect 1056 128550 179908 128870
+rect 1056 127890 179908 128210
+rect 1056 97914 179908 98234
+rect 1056 97254 179908 97574
+rect 1056 67278 179908 67598
+rect 1056 66618 179908 66938
+rect 1056 36642 179908 36962
+rect 1056 35982 179908 36302
+rect 1056 6006 179908 6326
+rect 1056 5346 179908 5666
+<< labels >>
+rlabel metal4 s 4868 2128 5188 180656 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 35588 2128 35908 180656 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 66308 2128 66628 180656 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 97028 2128 97348 180656 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 127748 2128 128068 180656 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 158468 2128 158788 180656 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 6006 179908 6326 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 36642 179908 36962 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 67278 179908 67598 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 97914 179908 98234 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 128550 179908 128870 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal5 s 1056 159186 179908 159506 6 VGND
+port 1 nsew ground bidirectional
+rlabel metal4 s 4208 2128 4528 180656 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 34928 2128 35248 180656 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 65648 2128 65968 180656 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 96368 2128 96688 180656 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 127088 2128 127408 180656 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal4 s 157808 2128 158128 180656 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 5346 179908 5666 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 35982 179908 36302 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 66618 179908 66938 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 97254 179908 97574 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 127890 179908 128210 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal5 s 1056 158526 179908 158846 6 VPWR
+port 2 nsew power bidirectional
+rlabel metal2 s 90454 0 90510 800 6 clk
+port 3 nsew signal input
+rlabel metal3 s 180222 5720 181022 5840 6 data_in[0]
+port 4 nsew signal input
+rlabel metal3 s 180222 119960 181022 120080 6 data_in[10]
+port 5 nsew signal input
+rlabel metal3 s 180222 131384 181022 131504 6 data_in[11]
+port 6 nsew signal input
+rlabel metal3 s 180222 142808 181022 142928 6 data_in[12]
+port 7 nsew signal input
+rlabel metal3 s 180222 154232 181022 154352 6 data_in[13]
+port 8 nsew signal input
+rlabel metal3 s 180222 165656 181022 165776 6 data_in[14]
+port 9 nsew signal input
+rlabel metal3 s 180222 177080 181022 177200 6 data_in[15]
+port 10 nsew signal input
+rlabel metal3 s 180222 17144 181022 17264 6 data_in[1]
+port 11 nsew signal input
+rlabel metal3 s 180222 28568 181022 28688 6 data_in[2]
+port 12 nsew signal input
+rlabel metal3 s 180222 39992 181022 40112 6 data_in[3]
+port 13 nsew signal input
+rlabel metal3 s 180222 51416 181022 51536 6 data_in[4]
+port 14 nsew signal input
+rlabel metal3 s 180222 62840 181022 62960 6 data_in[5]
+port 15 nsew signal input
+rlabel metal3 s 180222 74264 181022 74384 6 data_in[6]
+port 16 nsew signal input
+rlabel metal3 s 180222 85688 181022 85808 6 data_in[7]
+port 17 nsew signal input
+rlabel metal3 s 180222 97112 181022 97232 6 data_in[8]
+port 18 nsew signal input
+rlabel metal3 s 180222 108536 181022 108656 6 data_in[9]
+port 19 nsew signal input
+rlabel metal3 s 0 4360 800 4480 6 data_out[0]
+port 20 nsew signal output
+rlabel metal3 s 0 47880 800 48000 6 data_out[10]
+port 21 nsew signal output
+rlabel metal3 s 0 52232 800 52352 6 data_out[11]
+port 22 nsew signal output
+rlabel metal3 s 0 56584 800 56704 6 data_out[12]
+port 23 nsew signal output
+rlabel metal3 s 0 60936 800 61056 6 data_out[13]
+port 24 nsew signal output
+rlabel metal3 s 0 65288 800 65408 6 data_out[14]
+port 25 nsew signal output
+rlabel metal3 s 0 69640 800 69760 6 data_out[15]
+port 26 nsew signal output
+rlabel metal3 s 0 73992 800 74112 6 data_out[16]
+port 27 nsew signal output
+rlabel metal3 s 0 78344 800 78464 6 data_out[17]
+port 28 nsew signal output
+rlabel metal3 s 0 82696 800 82816 6 data_out[18]
+port 29 nsew signal output
+rlabel metal3 s 0 87048 800 87168 6 data_out[19]
+port 30 nsew signal output
+rlabel metal3 s 0 8712 800 8832 6 data_out[1]
+port 31 nsew signal output
+rlabel metal3 s 0 91400 800 91520 6 data_out[20]
+port 32 nsew signal output
+rlabel metal3 s 0 95752 800 95872 6 data_out[21]
+port 33 nsew signal output
+rlabel metal3 s 0 100104 800 100224 6 data_out[22]
+port 34 nsew signal output
+rlabel metal3 s 0 104456 800 104576 6 data_out[23]
+port 35 nsew signal output
+rlabel metal3 s 0 108808 800 108928 6 data_out[24]
+port 36 nsew signal output
+rlabel metal3 s 0 113160 800 113280 6 data_out[25]
+port 37 nsew signal output
+rlabel metal3 s 0 117512 800 117632 6 data_out[26]
+port 38 nsew signal output
+rlabel metal3 s 0 121864 800 121984 6 data_out[27]
+port 39 nsew signal output
+rlabel metal3 s 0 126216 800 126336 6 data_out[28]
+port 40 nsew signal output
+rlabel metal3 s 0 130568 800 130688 6 data_out[29]
+port 41 nsew signal output
+rlabel metal3 s 0 13064 800 13184 6 data_out[2]
+port 42 nsew signal output
+rlabel metal3 s 0 134920 800 135040 6 data_out[30]
+port 43 nsew signal output
+rlabel metal3 s 0 139272 800 139392 6 data_out[31]
+port 44 nsew signal output
+rlabel metal3 s 0 143624 800 143744 6 data_out[32]
+port 45 nsew signal output
+rlabel metal3 s 0 147976 800 148096 6 data_out[33]
+port 46 nsew signal output
+rlabel metal3 s 0 152328 800 152448 6 data_out[34]
+port 47 nsew signal output
+rlabel metal3 s 0 156680 800 156800 6 data_out[35]
+port 48 nsew signal output
+rlabel metal3 s 0 161032 800 161152 6 data_out[36]
+port 49 nsew signal output
+rlabel metal3 s 0 165384 800 165504 6 data_out[37]
+port 50 nsew signal output
+rlabel metal3 s 0 169736 800 169856 6 data_out[38]
+port 51 nsew signal output
+rlabel metal3 s 0 174088 800 174208 6 data_out[39]
+port 52 nsew signal output
+rlabel metal3 s 0 17416 800 17536 6 data_out[3]
+port 53 nsew signal output
+rlabel metal3 s 0 178440 800 178560 6 data_out[40]
+port 54 nsew signal output
+rlabel metal3 s 0 21768 800 21888 6 data_out[4]
+port 55 nsew signal output
+rlabel metal3 s 0 26120 800 26240 6 data_out[5]
+port 56 nsew signal output
+rlabel metal3 s 0 30472 800 30592 6 data_out[6]
+port 57 nsew signal output
+rlabel metal3 s 0 34824 800 34944 6 data_out[7]
+port 58 nsew signal output
+rlabel metal3 s 0 39176 800 39296 6 data_out[8]
+port 59 nsew signal output
+rlabel metal3 s 0 43528 800 43648 6 data_out[9]
+port 60 nsew signal output
+<< properties >>
+string FIXED_BBOX 0 0 181022 183166
+string LEFclass BLOCK
+string LEFview TRUE
+string GDS_END 9811104
+string GDS_FILE /openlane/designs/FIR_p/runs/RUN_2025.11.15_04.41.11/results/signoff/FIR_Lowpass_Filter.magic.gds
+string GDS_START 1919870
+<< end >>
+
